@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "nombre": "Hotel Europa",
+        "descripcion": "Alojamiento familiar - habitaciones con baño privado",
+        "categoria": "hospedaje",
+        "referencia": "Ubicado frente a la Plaza San Martín",
+        "direccion": "Sarmiento 408",
+        "enlace_google_maps": "https://maps.app.goo.gl/DVEXMk48XB2Ss8eAA",
+        "imagenes": [
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2022/07/WhatsApp_Image_2022-07-04_at_8.35.52_AM-1-1024x518.jpg"
+        ],
+        "horarios": "Lunes a Viernes de 0:00 a 24:00 hs.",
+        "url": "https://www.facebook.com/hoteleuropa.com.ar"
+    },
+    {
+        "id": 2,
+        "nombre": "Hotel La Plaza",
+        "descripcion": "Confortables habitaciones con baño privado",
+        "categoria": "hospedaje",
+        "referencia": "",
+        "direccion": "Rodriguez Peña 1161",
+        "enlace_google_maps": "https://maps.app.goo.gl/wf2sPq3tgnqqhksv6",
+        "imagenes": [
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2022/07/WhatsApp_Image_2022-07-04_at_8.35.51_AM-1-1024x472.jpg"
+        ],
+        "horarios": "Lunes a Viernes de 0:00 a 22:00 hs.",
+        "url": "https://www.facebook.com/p/HOSTAL-LA-PLAZA-100064048860250/"
+    },
+    {
+        "id": 3,
+        "nombre": "Hostal Meraki",
+        "descripcion": "Habitaciones con individuales y familiares baño privado",
+        "categoria": "hospedaje",
+        "referencia": "",
+        "direccion": "Facundo Quiroga 653",
+        "enlace_google_maps": "https://maps.app.goo.gl/aWm5zpx8AE2KKybz6",
+        "imagenes": [
+            "https://lestarpe.com/wp-content/uploads/2023/08/alojamiento-hostal-meraki-general-la-madrid.jpg",
+            "https://lestarpe.com/wp-content/uploads/2023/08/hostal-meraki-general-la-madrid.jpg",
+            "https://lestarpe.com/wp-content/uploads/2023/08/alojamiento-hospedaje-general-la-madrid-hostal-meraki.jpg",
+            "https://lestarpe.com/wp-content/uploads/2023/08/habitacion-triple-general-la-madrid-hostal-meraki.jpg"
+        ],
+        "horarios": "Lunes a Viernes de 0:00 a 22:00 hs.",
+        "url": "https://lestarpe.com/hostal-meraki/"
+    },
+    {
+        "id": 4,
+        "nombre": "Balneario Municipal Eduardo Baraboglia",
+        "descripcion": "Balneario con servicio de cantina, estacionamiento y areas deportivas",
+        "categoria": "paseos",
+        "referencia": "",
+        "direccion": "Ruta 86 sobre entrada a General La Madrid",
+        "enlace_google_maps": "https://maps.app.goo.gl/TR7rcQgarXieZjwQ8",
+        "imagenes": [
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2020/11/12-3.jpg",
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2020/09/82225445_2460626977522257_2373180167905345536_o.jpg",
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2020/08/Balneario1.jpg"
+        ],
+        "horarios": "Lunes a Domingo de 0:00 a 24:00 hs.",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "nombre": "Museo Casona Laplacette",
+        "descripcion": "Paseo por la histórica casona de Casimiro Laplacette",
+        "categoria": "paseos",
+        "referencia": "",
+        "direccion": "Av. Uriburu 700",
+        "enlace_google_maps": "https://maps.app.goo.gl/Nrmz4tytD3yA7uA87",
+        "imagenes": [
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2020/12/119601389_2672098349708451_3379947974102656028_o.jpg",
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2020/12/120018764_2672095426375410_3282420838709882672_o.jpg",
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2020/12/119881985_2672095689708717_5329632009811180170_o.jpg"
+        ],
+        "horarios": "Lunes a Viernes de 9:00 a 12:00 y de 15:00 a 20:00 hs.",
+        "url": ""
+    },
+    {
+        "id": 6,
+        "nombre": "Paseo del Ferrocarril",
+        "descripcion": "Paseo por la garita de control ferroviario",
+        "categoria": "paseos",
+        "referencia": "",
+        "direccion": "Av. Alem y Matheo",
+        "enlace_google_maps": "https://maps.app.goo.gl/nvE2gRDgTQYbKGBu7",
+        "imagenes": [
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2021/06/Foto_Estacion_009.jpg",
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2022/07/WhatsApp_Image_2022-05-03_at_12.08.06_PM-2-682x1024.jpg",
+            "https://www.lamadrid.gob.ar/wp-content/uploads/2022/07/WhatsApp_Image_2022-05-03_at_12.08.06_PM-1-1024x682.jpg"
+        ],
+        "horarios": "Lunes a Viernes de 9:00 a 18:00",
+        "url": ""
+    }
+]
