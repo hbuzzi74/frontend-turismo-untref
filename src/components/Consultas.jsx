@@ -1,4 +1,5 @@
-import useFormulario from '../datos/useFormulario'; 
+import useFormulario from "../datos/useFormulario";
+import background from "../img/background.png";
 
 function Consultas() {
   const {
@@ -16,26 +17,31 @@ function Consultas() {
   } = useFormulario();
 
   return (
-    <div 
+    <div
       className="bg-cover bg-center min-h-screen flex items-center justify-center px-6 py-12 sm:py-16 lg:px-8"
-      style={{ backgroundImage: 'url("/src/img/background.png")' }} // Ruta de la imagen de fondo
+      // style={{ backgroundImage: 'url("/src/img/background.png")' }} // Ruta de la imagen de fondo
+      style={{ backgroundImage: `url(${background})` }} // Ruta de la imagen de fondo
     >
       <div className="mx-auto max-w-2xl text-center w-full">
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
           Envíanos tu consulta
         </h2>
         <p className="mt-2 text-lg leading-8 text-white">
-          ¡Si tienes alguna duda sobre nuestra ciudad, no dudes en hacérnosla llegar!
+          ¡Si tienes alguna duda sobre nuestra ciudad, no dudes en hacérnosla
+          llegar!
         </p>
-        <form 
-          onSubmit={handleRegister} 
-          onKeyDown={handleKeyPress}  // Detectar la tecla presionada
+        <form
+          onSubmit={handleRegister}
+          onKeyDown={handleKeyPress} // Detectar la tecla presionada
           className="mx-auto mt-12 max-w-xl sm:mt-16 w-full"
         >
           {error && <p className="text-red-600">{error}</p>}
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
-              <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-white">
+              <label
+                htmlFor="first-name"
+                className="block text-sm font-semibold leading-6 text-white"
+              >
                 Nombre
               </label>
               <div className="mt-2.5">
@@ -53,7 +59,10 @@ function Consultas() {
               </div>
             </div>
             <div>
-              <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-white">
+              <label
+                htmlFor="last-name"
+                className="block text-sm font-semibold leading-6 text-white"
+              >
                 Apellido
               </label>
               <div className="mt-2.5">
@@ -72,7 +81,10 @@ function Consultas() {
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="correo-electronico" className="block text-sm font-semibold leading-6 text-white">
+              <label
+                htmlFor="correo-electronico"
+                className="block text-sm font-semibold leading-6 text-white"
+              >
                 Correo Electrónico
               </label>
               <div className="mt-2.5">
@@ -91,7 +103,10 @@ function Consultas() {
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="message" className="block text-sm font-semibold leading-6 text-white">
+              <label
+                htmlFor="message"
+                className="block text-sm font-semibold leading-6 text-white"
+              >
                 Déjanos un mensaje
               </label>
               <div className="mt-2.5">
@@ -122,17 +137,3 @@ function Consultas() {
 }
 
 export default Consultas;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
