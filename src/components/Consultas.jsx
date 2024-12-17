@@ -16,6 +16,7 @@ function Consultas() {
     handleKeyPress,
   } = useFormulario();
   console.log("DEBUG #2 en Consultas.jsx");
+  /*
   return (
     <div
       className="bg-cover bg-center min-h-screen flex items-center justify-center px-6 py-12 sm:py-16 lg:px-8"
@@ -141,6 +142,7 @@ function Consultas() {
       </div>
     </div>
   );
+  */
 }
 console.log("DEBUG - fin de Consultas.jsx");
 
