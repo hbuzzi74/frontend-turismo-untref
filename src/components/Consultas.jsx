@@ -2,19 +2,19 @@ import useFormulario from "../datos/useFormulario.js";
 import background from "../img/background.png";
 console.log("DEBUG #1 en Consultas.jsx");
 function Consultas() {
-  const {
-    nombre,
-    setNombre,
-    apellido,
-    setApellido,
-    email,
-    setEmail,
-    mensaje,
-    setMensaje,
-    error,
-    handleRegister,
-    handleKeyPress,
-  } = useFormulario();
+  // const {
+  //   nombre,
+  //   setNombre,
+  //   apellido,
+  //   setApellido,
+  //   email,
+  //   setEmail,
+  //   mensaje,
+  //   setMensaje,
+  //   error,
+  //   handleRegister,
+  //   handleKeyPress,
+  // } = useFormulario();
   console.log("DEBUG #2 en Consultas.jsx");
   /*
   return (
