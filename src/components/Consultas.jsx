@@ -1,4 +1,4 @@
-import useFormulario from "../datos/useFormulario.js";
+//import useFormulario from "../datos/useFormulario.js";
 import background from "../img/background.png";
 console.log("DEBUG #1 en Consultas.jsx");
 function Consultas() {
