@@ -1,22 +1,22 @@
-//import useFormulario from "../datos/useFormulario.js";
+import useFormulario from "../datos/useFormulario.js";
 import background from "../img/background.png";
 console.log("DEBUG #1 en Consultas.jsx");
 function Consultas() {
-  // const {
-  //   nombre,
-  //   setNombre,
-  //   apellido,
-  //   setApellido,
-  //   email,
-  //   setEmail,
-  //   mensaje,
-  //   setMensaje,
-  //   error,
-  //   handleRegister,
-  //   handleKeyPress,
-  // } = useFormulario();
+  const {
+    nombre,
+    setNombre,
+    apellido,
+    setApellido,
+    email,
+    setEmail,
+    mensaje,
+    setMensaje,
+    error,
+    handleRegister,
+    handleKeyPress,
+  } = useFormulario();
   console.log("DEBUG #2 en Consultas.jsx");
-  /*
+
   return (
     <div
       className="bg-cover bg-center min-h-screen flex items-center justify-center px-6 py-12 sm:py-16 lg:px-8"
@@ -142,7 +142,6 @@ function Consultas() {
       </div>
     </div>
   );
-  */
 }
 console.log("DEBUG - fin de Consultas.jsx");
 
