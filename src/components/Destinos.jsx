@@ -36,7 +36,7 @@ const Destinos = ({ nombre, categoria }) => {
       {loading ? (
         <div className="imagen-spinner">
           <img
-            src="/src/img/loading.gif"
+            src="images/loading.gif"
             alt="Cargando..."
             style={{ alignself: "center" }}
           />
