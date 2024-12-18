@@ -12,7 +12,8 @@ const turismo = () => {
   };
 
   return (
-    <div className="px-3">
+    <div className="min-h-screen bg-gradient-to-b from-sky-950 to-sky-900 px-3  text-sky-100">
+      {/* <div className="px-3"> */}
       <br></br>
       <h1 className="text-5xl flex justify-center font-['Open_Sans']">
         General La Madrid
@@ -33,8 +34,7 @@ const turismo = () => {
           <select
             type="select"
             name="categoria"
-            // className="mr-4 bg-gray-200 relative w-[100px] h-[40px] justify-between font-bold text-lg rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white"
-            className="mr-4 bg-gray-200 relative w-2/5 h-[40px] justify-between font-bold text-lg rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white"
+            className="mr-4 relative w-2/5 h-[40px] text-slate-500 justify-between font-bold text-lg rounded-lg selection:text-blue-100 tracking-wider border-4 border-transparent active:border-black duration-300 active:text-black"
           >
             <option value="">Todas</option>
             <option value="hospedaje">Hospedaje</option>

@@ -30,12 +30,15 @@ const Destinos = ({ nombre, categoria }) => {
       })
       .finally(() => setLoading(false));
   }, []);
-
+  /*
+className=""
+*/
   let destinosEncontrados = 0;
   return (
     <>
       {loading ? (
-        <div className="imagen-spinner">
+        <div className="imagen-spinner bg-white rounded-lg border-black">
+          <p className="text-black">Descargando imágenes...</p>
           <img
             src="images/loading.gif"
             alt="Cargando..."
@@ -73,7 +76,10 @@ const Destinos = ({ nombre, categoria }) => {
                       id="enlace_google_maps"
                       href={destino.enlace_google_maps}
                       target="_blank"
-                      style={{ color: "blue", textDecoration: "underline" }}
+                      style={{
+                        background: "gray",
+                        textDecoration: "underline",
+                      }}
                     >
                       Ver en Google Maps
                     </a>
@@ -82,7 +88,7 @@ const Destinos = ({ nombre, categoria }) => {
                     {destino.imagenes.map((imagen) => {
                       return (
                         <img
-                          className="imagen-destino"
+                          className="imagen-destino rounded-3xl"
                           key={imagen}
                           src={imagen}
                           alt="Imagen de referencia"
@@ -96,7 +102,11 @@ const Destinos = ({ nombre, categoria }) => {
                       id="url"
                       href={destino.url}
                       target="_blank"
-                      style={{ color: "blue", textDecoration: "underline" }}
+                      // style={{ color: "blue", textDecoration: "underline" }}
+                      style={{
+                        background: "gray",
+                        textDecoration: "underline",
+                      }}
                     >
                       Sitio Web
                     </a>
