@@ -12,7 +12,7 @@ const turismo = () => {
   };
 
   return (
-    <div>
+    <div className="px-3">
       <br></br>
       <h1 className="text-5xl flex justify-center font-['Open_Sans']">
         General La Madrid

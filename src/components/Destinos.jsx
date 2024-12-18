@@ -43,7 +43,7 @@ const Destinos = ({ nombre, categoria }) => {
           />
         </div>
       ) : (
-        <div>
+        <div style={{ padding: "10px" }}>
           {destinos.map((destino) => {
             if (
               (nombre === "" && categoria === "") ||
@@ -77,6 +77,8 @@ const Destinos = ({ nombre, categoria }) => {
                     >
                       Ver en Google Maps
                     </a>
+                    <br></br>
+                    <br></br>
                     {destino.imagenes.map((imagen) => {
                       return (
                         <img
@@ -87,6 +89,7 @@ const Destinos = ({ nombre, categoria }) => {
                         ></img>
                       );
                     })}
+                    <br></br>
                     <p id="horarios">Horario: {destino.horarios}</p>
 
                     <a
