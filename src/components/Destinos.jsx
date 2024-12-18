@@ -38,7 +38,7 @@ className=""
     <>
       {loading ? (
         <div className="imagen-spinner bg-white rounded-lg border-black">
-          <p className="text-black">Descargando imágenes...</p>
+          <p className="text-black pl-5">Descargando imágenes...</p>
           <img
             src="images/loading.gif"
             alt="Cargando..."
