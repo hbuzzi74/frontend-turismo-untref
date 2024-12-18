@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import "../estilos/imagen_spinner.css"; // Centrado de la imagen del spinner
+import "../estilos/imagen_destino.css"; // Centrado de las imágenes del destino
 
 // import json_destinos from "../datos/destinos.json";
 // const URL_SERVICIO_DESTINOS = "http://localhost:3008/destinos";
@@ -79,6 +80,7 @@ const Destinos = ({ nombre, categoria }) => {
                     {destino.imagenes.map((imagen) => {
                       return (
                         <img
+                          className="imagen-destino"
                           key={imagen}
                           src={imagen}
                           alt="Imagen de referencia"
@@ -86,6 +88,7 @@ const Destinos = ({ nombre, categoria }) => {
                       );
                     })}
                     <p id="horarios">Horario: {destino.horarios}</p>
+
                     <a
                       id="url"
                       href={destino.url}
@@ -94,6 +97,7 @@ const Destinos = ({ nombre, categoria }) => {
                     >
                       Sitio Web
                     </a>
+
                     <br />
                     <br />
                     <hr />
