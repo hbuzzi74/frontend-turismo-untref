@@ -70,8 +70,12 @@ className=""
                     <h3 id="categoria">
                       Categoría: <b>{destino.categoria}</b>
                     </h3>
-                    <p id="referencia">Ubicación: {destino.referencia}</p>
-                    <p id="direccion">{destino.direccion}</p>
+                    {destino.referencia ? (
+                      <p id="referencia">Ubicación: {destino.referencia}</p>
+                    ) : (
+                      <></>
+                    )}
+                    <p id="direccion">Dirección: {destino.direccion}</p>
                     <a
                       id="enlace_google_maps"
                       href={destino.enlace_google_maps}
