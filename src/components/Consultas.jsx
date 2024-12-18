@@ -1,6 +1,6 @@
 import useFormulario from "../datos/useFormulario.js";
 import background from "../img/background.png";
-console.log("DEBUG #1 en Consultas.jsx");
+
 function Consultas() {
   const {
     nombre,
@@ -15,7 +15,6 @@ function Consultas() {
     handleRegister,
     handleKeyPress,
   } = useFormulario();
-  console.log("DEBUG #2 en Consultas.jsx");
 
   return (
     <div
@@ -31,13 +30,11 @@ function Consultas() {
           ¡Si tienes alguna duda sobre nuestra ciudad, no dudes en hacérnosla
           llegar!
         </p>
-        {console.log("DEBUG #3 en Consultas.jsx")}
         <form
           onSubmit={handleRegister}
           onKeyDown={handleKeyPress} // Detectar la tecla presionada
           className="mx-auto mt-12 max-w-xl sm:mt-16 w-full"
         >
-          {console.log("DEBUG #4 en Consultas.jsx")}
           {error && <p className="text-red-600">{error}</p>}
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
@@ -47,7 +44,6 @@ function Consultas() {
               >
                 Nombre
               </label>
-              {console.log("DEBUG #5 en Consultas.jsx")}
               <div className="mt-2.5">
                 <input
                   id="first-name"
@@ -63,7 +59,6 @@ function Consultas() {
               </div>
             </div>
             <div>
-              {console.log("DEBUG #6 en Consultas.jsx")}
               <label
                 htmlFor="last-name"
                 className="block text-sm font-semibold leading-6 text-white"
@@ -84,7 +79,6 @@ function Consultas() {
                 />
               </div>
             </div>
-            {console.log("DEBUG #7 en Consultas.jsx")}
 
             <div className="sm:col-span-2">
               <label
@@ -107,7 +101,6 @@ function Consultas() {
                 />
               </div>
             </div>
-            {console.log("DEBUG #8 en Consultas.jsx")}
 
             <div className="sm:col-span-2">
               <label
@@ -130,7 +123,6 @@ function Consultas() {
             </div>
           </div>
           <div className="mt-10">
-            {console.log("DEBUG #9 en Consultas.jsx")}
             <button
               type="submit"
               className="block w-full rounded-md bg-green-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -143,6 +135,5 @@ function Consultas() {
     </div>
   );
 }
-console.log("DEBUG - fin de Consultas.jsx");
 
 export default Consultas;
